@@ -12,7 +12,7 @@
             },
             "command": {
                 "title": "Command",
-                "type": "String",
+                "type": "string",
                 "required": true,
                 "description": "The shell command to execute."
             },
