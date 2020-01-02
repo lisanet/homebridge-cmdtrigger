@@ -15,7 +15,7 @@ module.exports = function(homebridge) {
 function CmdTrigger(log, config) {
   this.log = log;
   this.name = config.name;
-  this.command = config.command;
+  this.command = (config.command === undefined) ? "/bin/true" : config.command;
   this.stateful = config.stateful;
   this.delay = config.delay;
   this.execAfterDelay = config.execAfterDelay
