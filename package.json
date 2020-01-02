@@ -1,6 +1,6 @@
 {
   "name": "homebridge-cmdtrigger",
-  "version": "0.3.2",
+  "version": "0.3.3-skl.1",
   "description": "Trigger CLI command on HomeBridge server with Apple HomeKit switch",
   "license": "ISC",
   "keywords": [
@@ -8,10 +8,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hallos/homebridge-cmdtrigger.git"
+    "url": "git://github.com/lisanet/homebridge-cmdtrigger.git"
   },
   "bugs": {
-    "url": "http://github.com/hallos/homebridge-cmdtrigger/issues"
+    "url": "http://github.com/lisanet/homebridge-cmdtrigger/issues"
   },
   "engines": {
     "node": ">=0.12.0",
